@@ -1,0 +1,30 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-page {
+  background: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.titre {
+  font-size: 50px;
+  margin-right: 250px;
+  text-align: right;
+  padding-top: 50px;
+  animation: fadein 2s;
+}
+
+.sous-titre {
+  margin-top: 20px;
+  font-size: 20px;
+  animation: fadein 4s;
+}
