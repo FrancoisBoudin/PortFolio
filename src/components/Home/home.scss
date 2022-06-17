@@ -1,3 +1,5 @@
+@use 'src/styles/vars.scss';
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -8,8 +10,7 @@
 }
 
 .home-page {
-  background-image: url(https://cdn.discordapp.com/attachments/518594672122134538/987226680466739290/clay-banks-8q6e5hu3Ilc-unsplash.jpg);
-  background-size: cover;
+  background: vars.$background;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -24,36 +25,25 @@
 
     .title {
       font-size: 50px;
-      margin-right: 300px;
-      text-align: right;
-      padding-top: 50px;
-      animation: fadein 3s;
+      animation: fadein 1s;
     }
     
     .under-title {
-      margin-top: 50px;
       font-size: 25px;
-      margin-left: 400px;
-      animation: fadein 5s;
+      animation: fadein 1s;
     }
   }
   
   .div-skill {
     background: rgba(0,0,0,0.3);
-    margin: 30px;
-    margin-left: 300px;
-    margin-top: 50px;
     border-radius: 10px;
-    animation: fadein 3s;
+    animation: fadein 2s;
 
     .title-secondary-skill {
       color: #bec7c6;
-      margin-left: 1250px;
-      margin-top: 60px;
       animation: fadein 2s;
       text-decoration: underline;
       font-size: 25px;
-      margin-bottom: 50px;
       font-weight: bold;
       letter-spacing: 2px;
     }
@@ -62,7 +52,6 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      padding-bottom: 50px;
 
       img {
         max-width: 10%;
@@ -73,19 +62,17 @@
   }
 
   .presentation {
-    margin-top: 50px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     .paragraphe {
       text-align: left;
       color: #bec7c6;      
-      margin-left: 100px;
       background: rgba(0,0,0,0.5);
-      padding: 10px;
       border-radius: 10px;
       line-height: 30px;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      animation: fadein 5s;
+      animation: fadein 3;
       width: 50%;
 
       .oclock {
@@ -94,16 +81,13 @@
     }
 
     .presentation h2 {
-      text-align: left;
+
     }
 
     .title-secondary {
-      margin-right: 1000px;
-      margin-top: 100px;
       animation: fadein 2s;
       text-decoration: underline;
       font-size: 20px;
-      margin-bottom: 50px;
       font-weight: bold;
       letter-spacing: 2px;
     }
