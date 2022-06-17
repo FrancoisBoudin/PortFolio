@@ -8,14 +8,16 @@
 }
 
 .home-page {
-  background: linear-gradient(#eacda3, #d6ae7b);
+  background-image: url(https://cdn.discordapp.com/attachments/518594672122134538/987226680466739290/clay-banks-8q6e5hu3Ilc-unsplash.jpg);
+  background-size: cover;
   width: 100%;
   height: 100%;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
-
+  scroll-behavior: smooth;
+  
   .header {
     width: 100%;
     letter-spacing: 3px;
@@ -37,6 +39,63 @@
   }
   
   .div-skill {
+    background: rgba(0,0,0,0.3);
+    margin: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    animation: fadein 3s;
+
+    .title-secondary-skill {
+      color: #bec7c6;
+      margin-left: 1250px;
+      margin-top: 60px;
+      animation: fadein 2s;
+      text-decoration: underline;
+      font-size: 25px;
+      margin-bottom: 50px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .pictures-skills {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 50px;
+
+      img {
+        max-width: 10%;
+        animation: fadein 5s;
+      }
+    }
+
+  }
+
+  .presentation {
+    margin-top: 50px;
+
+    .paragraphe {
+      text-align: left;
+      color: #bec7c6;      
+      margin-left: 100px;
+      background: rgba(0,0,0,0.5);
+      padding: 10px;
+      border-radius: 10px;
+      line-height: 30px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      animation: fadein 5s;
+      width: 50%;
+
+      .oclock {
+        color: #0ac3a7;
+      }
+    }
+
+    .presentation h2 {
+      text-align: left;
+    }
 
     .title-secondary {
       margin-right: 1000px;
@@ -47,35 +106,6 @@
       margin-bottom: 50px;
       font-weight: bold;
       letter-spacing: 2px;
-    }
-
-    .pictures-skills {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-
-      img {
-        position: relative;
-        max-width: 200px;
-        animation: fadein 5s;
-      }
-    }
-
-  }
-
-  .presentation {
-    
-    .paragraphe {
-      text-align: left;
-      color: #eacda3;
-      width: max-content;
-      margin-left: 100px;
-      background: rgba(0,0,0,0.5);
-      padding: 10px;
-      border-radius: 10px;
-      line-height: 30px;
-      margin-bottom: 30px;
-      animation: fadein 5s;
     }
   }
   
