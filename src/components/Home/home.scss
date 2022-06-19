@@ -17,7 +17,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
-  page-break-after: always;
   
   .header {
     height: 100vh;
@@ -93,16 +92,40 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
+      flex-wrap: wrap;
       margin-top: 80px;
 
       img {
         max-width: 10%;
         animation: fadein 2s;
+        transition: 1s;
+      }
+    }
+
+    .pictures-skills-under {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 80px;
+
+      img {
+        max-width: 10%;
+        animation: fadein 2s;
+        transition: 1s;
       }
     }
 
   }
-
   
-  
+  .footer {
+    display: flex;
+    img {
+      max-width: 10%;
+      animation: fadein 2s;
+      transition: 1s;
+      margin-left: -220px;
+      padding-bottom: 40px;
+    }
+  }
 }

@@ -1,7 +1,7 @@
 import './home.scss';
 
 const Home = () => (
-  <div className="home-page">
+  <div className="home-page" id="home">
     <div className="header">
       <h1 className="name">Boudin François</h1>
       <p className="work">Développeur Frontend</p>
@@ -26,11 +26,21 @@ const Home = () => (
     <div className="skill">
       <h2 className="title-skill">COMPETENCES</h2>
       <div className="pictures-skills">
-        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918721006207006/html-5.png" alt="logo-html" />
-        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918747874922526/css-3.png" alt="logo CSS" />
-        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918720435793980/js.png" alt="logo Javascript" />
-        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918720700047400/react.png" alt="logo react" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165434543067146/html-51.png" alt="logo-html" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165449890037770/css-31.png" alt="logo-CSS" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918720435793980/js.png" alt="logo-Javascript" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/986918720700047400/react.png" alt="logo-react" />
       </div>
+      <div className="pictures-skills-under">
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988157402656423986/github.png" alt="logo-github" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988157756001361970/mysql.png" alt="logo-mysql" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165465576710164/php.png" alt="logo-php" />
+      </div>
+    </div>
+    <div className="footer">
+      <a href="#home">
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988177037107802152/chevron-haut.png" alt="remonter en haut de la page" />
+      </a>
     </div>
   </div>
 );
