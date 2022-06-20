@@ -36,6 +36,21 @@
       margin-top: 70px;
       color: vars.$orange;
     }
+
+    .link {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      a {
+        transition: 0.7s;
+      }
+      a:hover {
+        letter-spacing: 5px;
+        color: vars.$orange;
+      }
+    }
   }
 
   .presentation {
@@ -46,6 +61,7 @@
     width: 100%;
     height: 100vh;
     background: vars.$orange;
+
     
     .text-presentation {
       text-align: left;

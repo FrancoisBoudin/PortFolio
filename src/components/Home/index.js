@@ -5,8 +5,14 @@ const Home = () => (
     <div className="header">
       <h1 className="name">Boudin François</h1>
       <p className="work">Développeur Frontend</p>
+      <div className="link">
+        <a href="#presentation">présentation</a>
+        <a href="#competences">competences</a>
+        <a href="#formation">formation</a>
+      </div>
+
     </div>
-    <div className="presentation">
+    <div className="presentation" id="presentation">
       <h2 className="title-presentation">PRESENTATION</h2>
       <p className="text-presentation">
         Je vis à Scionzier en Haute-Savoie et j'ai 30 ans .<br />
@@ -21,7 +27,7 @@ const Home = () => (
         sociable.
       </p>
     </div>
-    <div className="skill">
+    <div className="skill" id="competences">
       <h2 className="title-skill">COMPETENCES</h2>
       <div className="pictures-skills">
         <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165434543067146/html-51.png" alt="logo-html" />
@@ -35,7 +41,7 @@ const Home = () => (
         <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165465576710164/php.png" alt="logo-php" />
       </div>
     </div>
-    <div className="formation">
+    <div className="formation" id="formation">
       <h2 className="title-formation">MA FORMATION CHEZ O'CLOCK</h2>
       <p className="text-formation">
         Nous avons commencer par découvrir le HTML, CSS dans un premier temps, apprit a ce
