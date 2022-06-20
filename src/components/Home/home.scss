@@ -10,11 +10,11 @@
 }
 
 .home-page {
-  background: vars.$background;
+  background: vars.$white;
   width: 100%;
   height: 100%;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   
@@ -27,12 +27,14 @@
       font-size: 80px;
       animation: fadein 1s;
       margin-top: 250px;
+      color: vars.$black;
     }
     
     .work {
       font-size: 50px;
       animation: fadein 1s;
       margin-top: 70px;
+      color: vars.$orange;
     }
   }
 
@@ -43,17 +45,19 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
+    background: vars.$orange;
     
     .text-presentation {
       text-align: left;
-      color: #bec7c6;      
-      background: rgba(0,0,0,0.7);
+      color: vars.$white;      
+      background: vars.$black;
       border-radius: 10px;
       font-size: 20px;
       line-height: 30px;
       animation: fadein 1;
       width: 70%;
       margin-top: 25px;
+      padding: 20px;
 
       .oclock {
         color: #0ac3a7;
@@ -67,6 +71,7 @@
       font-weight: bold;
       letter-spacing: 2px;
       margin-bottom: 25px;
+      color: vars.$white;
     }
   }
   
@@ -86,6 +91,7 @@
       font-weight: bold;
       letter-spacing: 2px;
       margin-bottom: 25px;
+      color: vars.$orange;
     }
 
     .pictures-skills {
@@ -117,14 +123,61 @@
     }
 
   }
+
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: vars.$orange;
+    padding-top: 100px;
+
+    .title-formation {
+      animation: fadein 1s;
+      text-decoration: underline;
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+      color: vars.$white;
+    }
+
+    .text-formation {
+      text-align: left;
+      color: vars.$white;      
+      background: vars.$black;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 30px;
+      animation: fadein 1;
+      width: 70%;
+      margin-top: 25px;
+      padding: 20px;
+    }
+
+    .picture-formation {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+
+      img {
+        margin: 20px;
+      }
+    }
+  }
   
   .footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
     img {
       max-width: 10%;
       animation: fadein 2s;
       transition: 1s;
-      margin-left: -220px;
       padding-bottom: 40px;
     }
   }

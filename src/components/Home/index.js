@@ -9,18 +9,16 @@ const Home = () => (
     <div className="presentation">
       <h2 className="title-presentation">PRESENTATION</h2>
       <p className="text-presentation">
-        Je vis à Scionzier en Haute-Savoie où je recherche un poste de Développeur Web
-        Frontend.<br />
-        Passionné par l'informatique depuis tout petit, je décide donc de faire
+        Je vis à Scionzier en Haute-Savoie et j'ai 30 ans .<br />
+        j'ai fait pas mal de boulot, menuisier, soudeur, contrôleur qualité et
+        applicateur routier.<br />J'ai monté les échelons dans ce dernier
+        jusqu'à devenir conducteur de travaux pour Signalisation 44 à Nantes.<br />
+        Néanmoins suite à mon licenciement économique, je me suis demandé qu'est-ce que
+        je voulais faire VRAIMENT.
+        Passionné par l'informatique depuis tout petit, je décide donc tout naturellement de faire
         une formation de Développeur Web chez <a className="oclock" href="https://oclock.io/?utm_source=google&utm_medium=cpc&utm_campaign=Brand&adgroupname=Oclock&keyword=oclock&gclid=CjwKCAjwqauVBhBGEiwAXOepkRjc4McH2McVnU_uvXkyqKK4epZ-YbWXNKmQREATbqpT01c1d19PyxoCPEkQAvD_BwE">O'clock</a>.<br />
-        Je découvre donc le HTML, CSS dans un premier temps, me familiarise avec Linux et
-        la ligne de commande et GIT.<br />
-        Vient au tour de la programmation avec PHP, Javascript, et la découverte du DOM.<br />
-        Suite à ça, nous nous sommes mis à la Programmation Orienté Object, le responsive, et SQL
-        pour la découverte des BDD, le système MVC, du SEO, et du back office.<br />
-        Ajax, les API, et les CMS ont conclu la toute dernière semaine avant la
-        spécialisation.<br />
-        Et pour finir, tout comme Airbnb, Uber ou Netflix, J'ai choisi REACT.
+        Généralement, les gens me décrivent comme quelqu'un de bonne humeur, sérieux, rigoureux et
+        sociable.
       </p>
     </div>
     <div className="skill">
@@ -35,6 +33,33 @@ const Home = () => (
         <img src="https://cdn.discordapp.com/attachments/518594672122134538/988157402656423986/github.png" alt="logo-github" />
         <img src="https://cdn.discordapp.com/attachments/518594672122134538/988157756001361970/mysql.png" alt="logo-mysql" />
         <img src="https://cdn.discordapp.com/attachments/518594672122134538/988165465576710164/php.png" alt="logo-php" />
+      </div>
+    </div>
+    <div className="formation">
+      <h2 className="title-formation">MA FORMATION CHEZ O'CLOCK</h2>
+      <p className="text-formation">
+        Nous avons commencer par découvrir le HTML, CSS dans un premier temps, apprit a ce
+        familiariser avec l'environnement Linux et la ligne de commande et GIT.<br /><br />
+        Vient au tour de la programmation avec PHP, Javascript, et la découverte du DOM.<br />
+        Suite à ça, nous nous sommes mis à la Programmation Orienté Object, le responsive, et SQL
+        pour la découverte des BDD, le système MVC, du SEO, et du back office.<br />
+        Ajax, les API, et le CMS WordPress ont conclu les toutes dernières semaines avant la
+        spécialisation.<br /><br />
+        Ensuite, tout comme Airbnb, Uber ou Netflix, J'ai choisi REACT.<br />
+        Pendant la spécialisation, j'ai découvert REDUX, YARN, AXIOS, REACT-ROUTER-DOM, les HOOKS,
+        utiliser un REDUCER.<br /> <br />
+        Pour finir nous avons dû créé de A à Z un projet, avec trois de mes camarades, nous avons
+        choisi de créer un TMS pour une société de transports.<br />
+        J'ai particulièrement aimé travailler en équipe, pendant ces trois semaines de code j'avais
+        le rôle de Product Owner, et j'ai codé coté front en REACT, bien entendu.<br />
+        J'ai aimé aussi le fait de me confronter à des problèmes, souvent, mais de trouver
+        la solution et pouvoir continuer à avancer avec la satisfaction que cela procure.
+      </p>
+      <div className="picture-formation">
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988326542243430410/unknown.png" alt="" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988327034629546024/unknown.png" alt="" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988326780395995156/unknown.png" alt="" />
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/988326654701109258/unknown.png" alt="" />
       </div>
     </div>
     <div className="footer">
