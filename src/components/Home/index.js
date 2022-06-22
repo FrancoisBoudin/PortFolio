@@ -4,22 +4,24 @@ import MediaQuery from 'react-responsive';
 const Home = () => (
   <div className="home-page" id="home">
     <MediaQuery minWidth={600}>
-      <div className="welcome-div">
-        <h1 className="welcome-title">
-          <span>W</span>
-          <span>E</span>
-          <span>L</span>
+      <div className="header" id="header">
+        <h1 className="name">
+          <span>F</span>
+          <span>R</span>
+          <span>A</span>
+          <span>N</span>
           <span>C</span>
           <span>O</span>
-          <span>M</span>
-          <span>E</span>
+          <span>I</span>
+          <span>S</span>
+          <span className="space-span"> </span>
+          <span>B</span>
+          <span>O</span>
+          <span>U</span>
+          <span>D</span>
+          <span>I</span>
+          <span>N</span>
         </h1>
-        <a href="#header">
-          <img src="https://cdn.discordapp.com/attachments/518594672122134538/989047978062913567/fleche-vers-le-bas.png" alt="fleche-bas" />
-        </a>
-      </div>
-      <div className="header" id="header">
-        <h1 className="name">Boudin François</h1>
         <p className="work">Développeur Frontend</p>
         <div className="link">
           <a href="#presentation">présentation</a>
