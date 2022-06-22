@@ -2,7 +2,21 @@ import './home.scss';
 
 const Home = () => (
   <div className="home-page" id="home">
-    <div className="header">
+    <div className="welcome-div">
+      <h1 className="welcome-title">
+        <span>W</span>
+        <span>E</span>
+        <span>L</span>
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+      </h1>
+      <a href="#header">
+        <img src="https://cdn.discordapp.com/attachments/518594672122134538/989047978062913567/fleche-vers-le-bas.png" alt="fleche-bas" />
+      </a>
+    </div>
+    <div className="header" id="header">
       <h1 className="name">Boudin François</h1>
       <p className="work">Développeur Frontend</p>
       <div className="link">
