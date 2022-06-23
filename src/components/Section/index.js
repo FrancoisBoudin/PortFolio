@@ -4,7 +4,7 @@ const Section = () => (
   <div className="section">
     <div className="section__container">
       <div className="section__content">
-        <h1>Qui suis-je ?</h1>
+        <h1>Présentation</h1>
         <p>
           Je m'appelle François Boudin, j'ai 30 ans et vis en couple depuis 2009.<br />
           Menuisier, Soudeur, Applicateur dans le marquage au sol ou encore conducteur

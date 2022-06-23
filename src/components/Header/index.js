@@ -24,13 +24,10 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Qui suis-je ?</Link>
+            <Link to="/">Présentation</Link>
           </li>
           <li>
             <Link to="/">Compétences</Link>
-          </li>
-          <li>
-            <Link to="/">Ma Formation</Link>
           </li>
           <li>
             <Link to="/">Contact</Link>
