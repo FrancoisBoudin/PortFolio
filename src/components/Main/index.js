@@ -8,7 +8,7 @@ const Main = () => (
         <div className="text">
           <p>Bonjour à tous</p>
           <h1>François Boudin</h1>
-          <p>Developer Junior</p>
+          <p>Developpeur Junior</p>
           <div className="icons">
             <a href="https://www.instagram.com/patte_molle_/">
               <Instagram className="icon" />

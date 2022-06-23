@@ -41,8 +41,7 @@ const Header = () => {
         <MenuOutlined className="menu" onClick={showMenu} />
       </div>
     </div>
-  )
-}
-;
+  );
+};
 
 export default Header;
