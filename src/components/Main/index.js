@@ -10,8 +10,12 @@ const Main = () => (
           <h1>François Boudin</h1>
           <p>Developer Junior</p>
           <div className="icons">
-            <Instagram className="icon" />
-            <LinkedIn className="icon" />
+            <a href="https://www.instagram.com/patte_molle_/">
+              <Instagram className="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/françois-boudin-77078a226/">
+              <LinkedIn className="icon" src="https://www.intagram.com/patte_molle/" />
+            </a>
           </div>
         </div>
         <div className="main__img">

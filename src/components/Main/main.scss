@@ -62,9 +62,13 @@
 
   .main__img {
     cursor: pointer;
+  }
+}
 
-    img {
-      
+@media (max-width:580px) {
+  .main {
+    img{
+      display: none;
     }
   }
 }
