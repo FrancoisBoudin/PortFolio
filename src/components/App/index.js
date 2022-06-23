@@ -3,6 +3,7 @@ import './styles.scss';
 import Header from '../Header';
 import Main from '../Main';
 import Section from '../Section';
+import Skills from '../Skills';
 
 // == Composant
 const App = () => (
@@ -10,6 +11,7 @@ const App = () => (
     <Header />
     <Main />
     <Section />
+    <Skills />
   </div>
 );
 
