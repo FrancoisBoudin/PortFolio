@@ -1,11 +1,13 @@
 // == Import
-import './styles.css';
-import Home from '../Home';
+import './styles.scss';
+import Header from '../Header';
+import Main from '../Main';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <Home />
+    <Header />
+    <Main />
   </div>
 );
 
